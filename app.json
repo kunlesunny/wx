@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mypage/mypage",
+    "pages/myinfo/myinfo",
+    "pages/contactme/contactme",
+    "pages/study/study",
+    "pages/newmedia/newmedia"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "我的个人主页",
+    "navigationBarTextStyle": "light"
+  },
+  "debug": true
+}

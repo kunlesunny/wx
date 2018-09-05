@@ -1,0 +1,29 @@
+<view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">Table1</view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">Table2</view>  
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">Table4</view>
+    <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">Table4</view>   
+</view>  
+  
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">  
+    <!-- 我是Table1 -->  
+    <swiper-item>  
+      <view wx:for="{{array}}" class="ati_list">
+            <view class="flex-wrp">
+                <view class="flex-item"><image src="../../images/18.jpg"></image></view>
+                <view class="flex-item"><text>{{index}}: {{item.message}}我是Table1</text></view>
+            </view>
+      </view>
+    </swiper-item>  
+    <!-- 我是Table2 -->  
+    <swiper-item>  
+      <view>我是Table2</view>  
+    </swiper-item>  
+    <!-- 我是Table3 -->  
+    <swiper-item>  
+      <view>我是Table3</view>  
+    </swiper-item>
+    <swiper-item>  
+      <view>我是Table4</view>  
+    </swiper-item>  
+</swiper> 

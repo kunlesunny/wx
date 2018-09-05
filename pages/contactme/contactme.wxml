@@ -1,0 +1,11 @@
+<view class="mypagecontainer">
+    <view class="myinfo_area">
+         <image class="userinfo-avatar" src="../../images/06.gif" ></image>
+    </view>
+    <view class="btn-area">
+        <view class="body-view">
+            <button class="btn_sytle" bindtap="callme">拨打电话 》》</button>
+            <image class="myinfoqq_area" src="../../images/qq.png" ></image>
+        </view>
+    </view>
+</view>

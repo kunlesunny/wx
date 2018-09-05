@@ -1,0 +1,87 @@
+page,.page {
+  height: 100%;
+  font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, 'Droid Sans Fallback', 'Microsoft Yahei', sans-serif;
+}
+.page-bottom{
+  height: 100%;
+  width: 100%;
+  position: fixed; 
+  background-color: black;
+  z-index: 0;
+}
+.wc{
+  color: white;
+  padding: 30rpx 0 30rpx 40rpx;
+}
+.page-content{
+  padding-top: 50rpx;
+}
+.page-top{
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 0;
+  transition: All 0.4s ease; 
+  -webkit-transition: All 0.4s ease;
+}
+.chtp{
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  left: 20rpx;
+  top: 20rpx;
+}
+.txtp{
+  position: absolute;
+  width: 60rpx;
+  height: 60rpx;
+  right: 20rpx;
+  top: 20rpx;
+}
+.c-state1{
+  transform: rotate(0deg) scale(.8) translate(50%,0%);   
+  -webkit-transform: rotate(0deg) scale(.8) translate(50%,0%);   
+}
+.gdt{
+    position: absolute;
+    width: 100%;
+    top: 100rpx;
+    background-color: white;
+    margin-bottom: 0;
+}
+.swiper{
+    height: 240px;    
+}
+.section{
+    width: 100%;
+    position: absolute;
+    top: 290px;
+}
+.flex-wrp{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+.flex-item{
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background-color: lightblue; 
+}
+.contentlist{
+    width: 100%;
+    position: absolute;
+    top:350px;
+}
+.content_area{
+    height: 200px;
+    margin-top: 10px;
+}
+.content-item{
+    width: 90%;
+    height: 90px;
+    margin: 5%;
+    background-color: gold;
+}

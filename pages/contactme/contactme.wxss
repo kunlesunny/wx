@@ -1,0 +1,22 @@
+page{
+  height:100%
+}
+
+.mypagecontainer{
+    height: 100%;
+    text-align: center;
+    /*background-image: url('../../images/bg-1.jpg');*/
+}
+
+.btn-area{
+    margin: 20px
+}
+
+.btn_sytle{
+    margin: 10px
+}
+
+.myinfoqq_area{
+    width: 150px;
+    height: 150px;
+}

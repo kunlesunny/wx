@@ -1,0 +1,55 @@
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #777777;  
+    text-align: center;  
+    line-height: 80rpx;
+	  position: fixed;
+	  top: 0;
+    z-index: 1030;
+    background-color: greenyellow;
+}  
+.swiper-tab-list{  
+    font-size: 30rpx;  
+    display: inline-block;  
+    width: 25%;  
+    color: #777777;  
+}  
+.on{ 
+    color: #da7c0c;  
+    border-bottom: 5rpx solid #da7c0c;
+}  
+  
+.swiper-box{ 
+    display: block; 
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+    margin-top: 80rpx;
+}  
+ 
+.ati_list{
+    width: 90%;
+    height: 80px;
+    margin: 0 5%;
+    margin-top: 10px;
+    background-color: yellow;
+    text-align: left;
+    
+}
+.flex-item image{
+    width: 100px;
+    height: 60px; 
+   
+}
+.flex-wrp{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction:row;
+}
+.flex-item{
+    width: 50%;
+    height: 60px;
+    text-align: left;
+    margin-top: 10px;
+}

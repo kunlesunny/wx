@@ -1,0 +1,56 @@
+<view class="page">  
+    <view class="page-bottom">  
+        <view class="page-content">  
+            <view  class="wc" bindtap="studypage">  
+                <text>栏目一</text>  
+            </view>  
+            <view  class="wc">  
+                <text>栏目二</text>  
+            </view>  
+            <view  class="wc">  
+                <text>栏目三</text>  
+            </view>  
+            <view  class="wc" bindtap="newmedia">  
+                <text>栏目四</text>  
+            </view>  
+            <view  class="wc">  
+                <text>栏目五</text>  
+            </view> 
+            <view  class="wc">  
+                <text>栏目六</text>  
+            </view> 
+        </view>  
+    </view>  
+    <view class="page-top {{open ? 'c-state1' : ''}}">  
+        <image class="chtp" bindtap="tap_ch" src="../../images/tab.png"></image>
+        <image class="txtp" bindtap="tap_tx" src="../../images/tx.jpg"></image> 
+        <view class="gdt">
+            <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+                <block wx:for="{{movies}}" wx:for-index="index">    
+                    <swiper-item>    
+                        <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+                    </swiper-item>   
+                </block>    
+            </swiper>
+        </view>
+        <view class="section">
+            <view class="flex-wrp">
+                <view class="flex-item">1</view>
+                <view class="flex-item">2</view>
+                <view class="flex-item">3</view>
+                <view class="flex-item">4</view>
+            </view>
+        </view>
+        <view class="contentlist">
+            <view class="contentdes">描述描述</view>
+            <scroll-view class="content_area" scroll-y="true">
+                <view class="content-item">1</view>
+                <view class="content-item">2</view>
+                <view class="content-item">3</view>
+                <view class="content-item">4</view>
+            </scroll-view>
+        </view>
+  
+    </view> 
+    
+</view>  

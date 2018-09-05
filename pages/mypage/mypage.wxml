@@ -1,0 +1,12 @@
+<view class="mypagecontainer">
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="../../images/tx.jpg" ></image>
+    </view> 
+
+    <view class="btn-area">
+        <view class="body-view">
+            <button class="btn_sytle" bindtap="lx">联系我 》》</button>
+            <button class="btn_sytle" bindtap="lj">了解我 》》</button>
+        </view>
+    </view> 
+</view>

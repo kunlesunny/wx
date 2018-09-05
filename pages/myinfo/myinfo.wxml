@@ -1,0 +1,20 @@
+<view class="mypagecontainer">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+      <block wx:for="{{movies}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+    </swiper> 
+    <view class="text_content">
+        <text>
+                江城子(苏轼)\r\n
+　　      十年生死两茫茫，不思量，自难忘。\r\n
+　　      千里孤坟，无处话凄凉。\r\n
+　　      纵使相逢应不识，尘满面，鬓如霜。\r\n
+　　      夜来幽梦忽还乡，小轩窗，正梳妆。\r\n
+　　      相顾无言，惟有泪千行。\r\n
+　　      料得年年肠断处，明月夜，短松冈。\r\n
+        </text>
+    </view>
+</view>
